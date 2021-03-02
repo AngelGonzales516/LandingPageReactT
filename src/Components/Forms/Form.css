@@ -1,0 +1,100 @@
+section.Conteiner {
+    background-color:darkgray;
+    display: flex;
+     flex-wrap: wrap;
+    position: relative;
+    filter:alpha(opacity=60); opacity:.6;
+    width: 25rem;
+    height: 31rem;
+    border-radius: 0.5rem;
+    box-shadow:0px 5px 5px black;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+  }
+
+  section section.Conteiner2  {
+    flex-direction: row;
+    width: 20rem;
+    height: 15rem;
+    margin-top: 0.5rem ;
+    margin-left: 2.1rem;
+    
+  }
+
+  section section.Conteiner2 p{
+    color:black;
+    font-size: 25px;
+    
+    margin-bottom: 0.5rem;
+    background-color: floralwhite;
+    filter:alpha(opacity=60); opacity:.6;
+    text-align: center;
+  }
+
+  section section.Conteiner2 text{
+    color:black;
+    margin-bottom: 2rem;
+  }
+ 
+
+  section section.Conteiner2 input{
+    margin-top: 0.5rem;
+    width: 20rem;
+  }
+
+  section section.Conteiner2 input.Button{
+    width: 20rem;
+    margin-top: 3rem;
+  }
+
+  @media screen and (max-width: 480px){
+    section.Conteiner {
+      background-color:darkgray;
+      display: flex;
+       flex-wrap: wrap;
+
+      position: relative;
+      filter:alpha(opacity=60); opacity:.6;
+      width: 15rem;
+      height: 31rem;
+      border-radius: 0.5rem;
+      box-shadow:0px 5px 5px black;
+      margin-top: 1rem;
+      margin-left: 3rem;
+    }
+    section section.Conteiner2  {
+      flex-direction: row;
+      width: 10rem;
+      height: 15rem;
+      margin-top: 0.5rem ;
+      margin-left: 2.1rem;
+      
+    }
+
+    section section.Conteiner2 p{
+      color:black;
+      font-size: 25px;
+      margin-bottom: 0.5rem;
+      background-color: floralwhite;
+      filter:alpha(opacity=60); opacity:.6;
+      text-align: center;
+    }
+
+
+    section section.Conteiner2 text{
+      color:black;
+      margin-bottom: 2rem;
+    }
+   
+  
+    section section.Conteiner2 input{
+      margin-top: 0.5rem;
+      width: 10rem;
+    }
+  
+    section section.Conteiner2 input.Button{
+      width: 10rem;
+      margin-top: 3rem;
+    }
+
+  }

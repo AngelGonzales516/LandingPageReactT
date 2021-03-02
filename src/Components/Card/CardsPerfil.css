@@ -1,0 +1,30 @@
+section.Conteiner {
+  width: 25rem;
+}
+
+section.Conteiner section{
+    margin-top: 1rem;
+}
+
+
+section.Conteiner section section.imge{
+    width: 4rem;
+    height: 7rem;
+}
+
+section.Conteiner section p.p1{
+    font-size: 15px;
+    margin-left: 4rem;
+    color: rgb(10, 34, 26);
+}
+
+
+@media screen and (max-width: 480px){
+    section.Conteiner {
+        width: 15rem;
+      }
+      section.Conteiner section section.imge{
+        width: 4rem;
+        height: 7rem;
+    }
+}

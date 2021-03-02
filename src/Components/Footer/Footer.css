@@ -1,0 +1,25 @@
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+    padding: 0.8rem;
+    background-color: #A0918C;
+    color: #fff;
+    margin-top: 1.5rem;
+    
+  }
+  
+  footer h1 {
+    text-align: center;
+    color: dodgerblue;
+    margin-left: 7rem;
+  }
+
+  @media (min-width: 520px) {
+    footer h1 {
+        text-align: center;
+        color: black;
+        margin-left: 40rem;
+      }
+  } 

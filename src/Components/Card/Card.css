@@ -1,0 +1,65 @@
+section.Conteiner {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+    background-color:darkgray;
+    filter:alpha(opacity=60); opacity:.6;
+    width: 15rem;
+    height: 31rem;
+    border-radius: 0.5rem;
+    box-shadow:0px 5px 5px black;
+    margin-top: 1rem;
+    margin-left: 1.5rem;
+    
+  }
+
+section.img{
+  background-image: url("../Img/Cama.png");
+  
+  margin:0.5rem;
+  width: 24rem;
+  height: 10rem;
+  background-repeat: no-repeat;
+  background-position-x: left ;
+  background-position-y: bottom ;
+  background-size: cover;
+  
+}
+section p {
+  font-size: 16;
+}
+
+
+@media screen and (max-width: 480px) {
+  section.Conteiner {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+      background-color:darkgray;
+      filter:alpha(opacity=60); opacity:.6;
+      width: 10rem;
+      height: 31rem;
+      border-radius: 0.5rem;
+      box-shadow:0px 5px 5px black;
+      margin-top: 1rem;
+      margin-left: 1.5rem;
+      
+    }
+  
+  section.img{
+    background-image: url("../Img/Cama.png");
+    
+    margin:0.5rem;
+    width: 10rem;
+    height: 10rem;
+    background-repeat: no-repeat;
+    background-position-x: left ;
+    background-position-y: bottom ;
+    background-size: cover;
+    
+  }
+  section p {
+    font-size: 16;
+  }
+  
+}
