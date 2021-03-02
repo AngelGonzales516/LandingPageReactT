@@ -3,10 +3,18 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import BrandHeader from './Components/BranHeader/BrandHeader'
+import './Components/Navbars/Body.css'
+import Footer from './Components/Footer/Footer'
+import Body from './Components/Navbars/Body'
+
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <BrandHeader/>
+    <Body/>
+    <Footer/>
   </React.StrictMode>,
   document.getElementById('root')
 );
